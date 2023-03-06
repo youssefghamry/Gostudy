@@ -1,0 +1,17 @@
+/* ====================  * ##Tutor Z-index ==================== */
+
+#main{
+    z-index: 1;
+}
+.rt-theme-header {
+    z-index: 2;
+}
+ .footer {
+    z-index: -2;
+}
+ body.elementor-editor-active .footer {
+    z-index: 0;
+}
+.tutor-modal-content {
+    top: 95px;
+}
